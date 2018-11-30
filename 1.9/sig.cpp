@@ -4,6 +4,7 @@
 #include<stdlib.h>
 #include<errno.h>
 #include<unistd.h>
+#include<sys/stat.h>
 static void sig_int(int);
 const int MAXLINE = 4096;
 int main(int argc, char const *argv[])
